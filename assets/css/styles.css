@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Abril Fatface', serif;
+}
+
+#feature {
+    width: 100%;
+    height: 100vh;
+}
+
+.feature-bg {
+    background-image: url("../img/background/bg.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-effect {
+    background: #0e0d0dc7;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.feature-card {
+    width: 18rem;
+    height: 30rem;
+    background: rgba(0, 0, 0, 0.616);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 217, 0, 0.719);
+    box-shadow: 0 0 5px 1px rgb(255, 166, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-logo {
+    border: 2px solid rgb(255, 167, 4);
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.feature-logo img {
+    height: 5rem;
+}
+
+.feature-data {
+    color: rgb(255, 145, 0);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+
